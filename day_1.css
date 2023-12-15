@@ -1,0 +1,222 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fde4f2;
+    color: #e68bbe;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #eea1cd;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h1, h2, h3 {
+    color: #e68bbe;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #e68bbe;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add this to your existing styles.css file */
+
+#home {
+    text-align: center;
+    padding: 40px 0; /* Adjust the padding as needed */
+}
+
+.profile-container {
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+}
+
+/* Add this to your existing styles.css file */
+
+.experience-cards,
+.language-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.experience-card,
+.language-card {
+    background-color: #f4b8da;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.experience-card h3,
+.language-card p {
+    margin: 10px 0;
+}
+
+.language-card img {
+    max-width: 50px;
+}
+
+/* Add this to your existing styles.css file */
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.service-card {
+    background-color: #f4b8da;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.service-card img {
+    max-width: 20%;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+.service-card p {
+    margin-bottom: 20px;
+}
+
+/* Add this to your existing styles.css file */
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #f4b8da;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card p {
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.project-card:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Add this to your existing styles.css file */
+
+    
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #f01d94;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f244a6;
+}
+
